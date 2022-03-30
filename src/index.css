@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font: 400 normal 1rem/1.5rem 'Roboto';
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+
+body > #root {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    font-weight: 500;
+    transition: all 0.1s;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: none;
+}
+
+button,
+input,
+textarea {
+    border: none;
+    outline: none;
+    background-color: grey;
+}
+
+#app {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+}
